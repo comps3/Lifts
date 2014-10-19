@@ -13,7 +13,7 @@
 		F57FA0B8199B06320004EE5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F57FA0B6199B06320004EE5D /* Main.storyboard */; };
 		F57FA0BA199B06320004EE5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F57FA0B9199B06320004EE5D /* Images.xcassets */; };
 		F57FA0C6199B06320004EE5D /* LiftsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57FA0C5199B06320004EE5D /* LiftsTests.swift */; };
-		F5DC11FE19B21EAF007DF295 /* NumberPadDoneBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DC11FD19B21EAF007DF295 /* NumberPadDoneBtn.m */; };
+		F5C7040D19F479C800191254 /* NumberPadDoneBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C7040C19F479C800191254 /* NumberPadDoneBtn.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +37,9 @@
 		F57FA0BF199B06320004EE5D /* LiftsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiftsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F57FA0C4199B06320004EE5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F57FA0C5199B06320004EE5D /* LiftsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftsTests.swift; sourceTree = "<group>"; };
+		F5C7040B19F479BA00191254 /* NumberPadDoneBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberPadDoneBtn.h; sourceTree = "<group>"; };
+		F5C7040C19F479C800191254 /* NumberPadDoneBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberPadDoneBtn.m; sourceTree = "<group>"; };
 		F5DC11FB19B21EAF007DF295 /* Lifts-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lifts-Bridging-Header.h"; sourceTree = "<group>"; };
-		F5DC11FC19B21EAF007DF295 /* NumberPadDoneBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NumberPadDoneBtn.h; path = "../../../../Downloads/gist28461ec559d495101be8-31f7de6c70e349f3fd17271a0b7841f44693de49/NumberPadDoneBtn.h"; sourceTree = "<group>"; };
-		F5DC11FD19B21EAF007DF295 /* NumberPadDoneBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NumberPadDoneBtn.m; path = "../../../../Downloads/gist28461ec559d495101be8-31f7de6c70e349f3fd17271a0b7841f44693de49/NumberPadDoneBtn.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +84,8 @@
 				F57FA0B2199B06320004EE5D /* AppDelegate.swift */,
 				F57FA0B4199B06320004EE5D /* ViewController.swift */,
 				F571423019A04606004BFBE0 /* BarbellPlatesTableViewCell.swift */,
-				F5DC11FC19B21EAF007DF295 /* NumberPadDoneBtn.h */,
-				F5DC11FD19B21EAF007DF295 /* NumberPadDoneBtn.m */,
+				F5C7040B19F479BA00191254 /* NumberPadDoneBtn.h */,
+				F5C7040C19F479C800191254 /* NumberPadDoneBtn.m */,
 				F57FA0B6199B06320004EE5D /* Main.storyboard */,
 				F57FA0B9199B06320004EE5D /* Images.xcassets */,
 				F57FA0B0199B06320004EE5D /* Supporting Files */,
@@ -219,8 +219,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5C7040D19F479C800191254 /* NumberPadDoneBtn.m in Sources */,
 				F57FA0B5199B06320004EE5D /* ViewController.swift in Sources */,
-				F5DC11FE19B21EAF007DF295 /* NumberPadDoneBtn.m in Sources */,
 				F57FA0B3199B06320004EE5D /* AppDelegate.swift in Sources */,
 				F571423119A04606004BFBE0 /* BarbellPlatesTableViewCell.swift in Sources */,
 			);
