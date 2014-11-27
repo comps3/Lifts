@@ -10,12 +10,9 @@ import UIKit
 
 class BarbellPlate: UITableViewCell {
     
-
     @IBOutlet weak var plateCategory: UILabel!
     @IBOutlet weak var plateQty: UILabel!
     
-    
-
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
