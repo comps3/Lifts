@@ -32,12 +32,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITextFieldDelegate
         totalWeight.textColor = UIColor.redColor()
         
         totalWeight.delegate = self
-        
         tableView.rowHeight = 40
+        
         // Removes table view lines
         tableView.separatorStyle = .None
-        
-        // Do any additional setup after loading the view, typically from a nib.
+
     }
     
     override func preferredStatusBarStyle() -> UIStatusBarStyle {
@@ -89,16 +88,16 @@ class ViewController: UIViewController, UITableViewDelegate, UITextFieldDelegate
         var temp_barbellWeight: Double = 0.0
         var temp_plateTally: Int = 0
         
-        // Checks for weight limits that can not be computed
-        if total_lift % 2.5 != 0
+        // Checks if the user's entered weight can be computed
+        if total_lift % 1.25 != 0
         {
             var alert = UIAlertView(title: "Invalid Weight", message: "Please enter a weight divisble by 2.5", delegate: self, cancelButtonTitle:"Close")
             alert.show()
             return
         }
         
-        // Need to lift at least 50 pounds
-        if total_lift < 50
+        // Total lift weight must be greater than 47.5 pounds due to avaliable weights
+        if total_lift < 47.5
         {
             var alert = UIAlertView(title: "Invalid Weight", message: "Its impossible to lift less than the bar!", delegate: self, cancelButtonTitle:"Close")
             alert.show()
