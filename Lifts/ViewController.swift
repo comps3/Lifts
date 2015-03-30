@@ -14,16 +14,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITextFieldDelegate
     @IBOutlet weak var calculateButton: UIButton!
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var segmentedControl: UISegmentedControl!
-    //@IBOutlet weak var weightSlider: UISlider!
 
     let weightList: [Double] = [1.25 ,2.5, 5, 10, 25, 35, 45]
     var barbellWeights = NSMutableArray()
     var plateTally = NSMutableArray()
     var poundsOrKilo: Bool = true
     var digitConverter = 0.0
-    //var exerciseSwitch = 0
-    //let dataSafe = NSUserDefaults.standardUserDefaults()
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -82,7 +78,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITextFieldDelegate
         let barbell = 45.0
         var barbellPlateSide: Double = 0.0
 
-        var total_lift = Double((totalWeight.text as NSString).doubleValue)
+        //var total_lift = Double((totalWeight.text as NSString).doubleValue)
+        let user_input = NSString(string: totalWeight.text)
+        let total_lift = user_input.doubleValue
         var running_total:Double = 0.0
         
         var temp_barbellWeight: Double = 0.0
